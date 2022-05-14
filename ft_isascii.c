@@ -6,13 +6,13 @@
 /*   By: jmaia-de <jvmdob@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/14 19:17:37 by jmaia-de          #+#    #+#             */
-/*   Updated: 2022/05/14 19:21:35 by jmaia-de         ###   ########.fr       */
+/*   Updated: 2022/05/14 19:56:44 by jmaia-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
-    if (c >= 0 && c <= 127)
-        return (1);
-    return (0);
+	if (c >= 0 && c <= 127)
+		return (1);
+	return (0);
 }

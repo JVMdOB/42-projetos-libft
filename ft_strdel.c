@@ -6,14 +6,14 @@
 /*   By: jmaia-de <jvmdob@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/14 19:37:43 by jmaia-de          #+#    #+#             */
-/*   Updated: 2022/05/14 19:44:40 by jmaia-de         ###   ########.fr       */
+/*   Updated: 2022/05/14 19:58:25 by jmaia-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-void    ft_strdel(char **as)
+void	ft_strdel(char **as)
 {
-    free(*as);
-    *as = NULL;
+	free(*as);
+	*as = NULL;
 }

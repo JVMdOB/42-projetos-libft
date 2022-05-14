@@ -6,13 +6,13 @@
 /*   By: jmaia-de <jvmdob@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/14 18:33:41 by jmaia-de          #+#    #+#             */
-/*   Updated: 2022/05/14 19:15:16 by jmaia-de         ###   ########.fr       */
+/*   Updated: 2022/05/14 19:56:27 by jmaia-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
-    if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z' ))
-        return (1024);
-    return (0);
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z' ))
+		return (1024);
+	return (0);
 }

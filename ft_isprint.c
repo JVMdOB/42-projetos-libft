@@ -6,13 +6,13 @@
 /*   By: jmaia-de <jvmdob@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/14 18:56:22 by jmaia-de          #+#    #+#             */
-/*   Updated: 2022/05/14 19:13:37 by jmaia-de         ###   ########.fr       */
+/*   Updated: 2022/05/14 19:57:19 by jmaia-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    if (c >= 32 && c <= 126)
-        return (16384);
-    return (0);
+	if (c >= 32 && c <= 126)
+		return (16384);
+	return (0);
 }

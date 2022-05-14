@@ -6,11 +6,12 @@
 /*   By: jmaia-de <jvmdob@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/14 18:25:00 by jmaia-de          #+#    #+#             */
-/*   Updated: 2022/05/14 18:26:50 by jmaia-de         ###   ########.fr       */
+/*   Updated: 2022/05/14 19:57:45 by jmaia-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char const *s, int fd);
 

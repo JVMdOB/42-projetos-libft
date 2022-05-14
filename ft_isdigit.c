@@ -6,14 +6,13 @@
 /*   By: jmaia-de <jvmdob@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/14 18:41:38 by jmaia-de          #+#    #+#             */
-/*   Updated: 2022/05/14 19:14:39 by jmaia-de         ###   ########.fr       */
+/*   Updated: 2022/05/14 19:56:58 by jmaia-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    if (c >= '0' && c <= '9')
-        return (2048);
-    return (0);
+	if (c >= '0' && c <= '9')
+		return (2048);
+	return (0);
 }
-

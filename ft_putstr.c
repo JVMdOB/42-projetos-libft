@@ -16,7 +16,7 @@ int		ft_strlen(char const *s);
 
 void	ft_putstr(char const *s)
 {
-	int len;
+	int	len;
 
 	len = ft_strlen(s);
 	write(1, s, len);
