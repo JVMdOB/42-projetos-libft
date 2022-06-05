@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+<<<<<<< HEAD
+#include "libft.h"
+
+void	ft_putstr(char const *s)
+{
+	write(1, s, ft_strlen(s));
+=======
 #include <unistd.h>
 
 int		ft_strlen(char const *s);
@@ -20,4 +27,5 @@ void	ft_putstr(char const *s)
 
 	len = ft_strlen(s);
 	write(1, s, len);
+>>>>>>> 91915bb06befd077339a5d28fd04e2f6f9de7c68
 }

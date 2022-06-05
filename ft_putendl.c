@@ -10,10 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+<<<<<<< HEAD
+#include "libft.h"
+=======
 #include <unistd.h>
 
 void	ft_putchar(char c);
 void	ft_putstr(char const *s);
+>>>>>>> 91915bb06befd077339a5d28fd04e2f6f9de7c68
 
 void	ft_putendl(char const *s)
 {

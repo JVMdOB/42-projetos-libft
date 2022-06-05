@@ -10,9 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+<<<<<<< HEAD
+#include "libft.h"
+
+size_t	ft_strlen(const char *s)
+{
+	size_t	size;
+=======
 int	ft_strlen(const char *s)
 {
 	int	size;
+>>>>>>> 91915bb06befd077339a5d28fd04e2f6f9de7c68
 
 	size = 0;
 	while (*s)
